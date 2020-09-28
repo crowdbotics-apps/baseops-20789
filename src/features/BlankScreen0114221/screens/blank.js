@@ -230,8 +230,8 @@ export default Blank = withStyles(_Blank, theme => ({
     letterSpacing: 0
   },
   Button_9: {
-    width: "100%",
-    marginLeft: 0,
+    width: "60%",
+    marginLeft: 10,
     marginRight: 0,
     marginTop: 5,
     marginBottom: 5,
@@ -261,8 +261,8 @@ export default Blank = withStyles(_Blank, theme => ({
     letterSpacing: 0
   },
   Button_12: {
-    width: "100%",
-    marginLeft: 0,
+    width: "60%",
+    marginLeft: 10,
     marginRight: 0,
     marginTop: 5,
     marginBottom: 5,
@@ -292,8 +292,8 @@ export default Blank = withStyles(_Blank, theme => ({
     letterSpacing: 0
   },
   Button_14: {
-    width: "100%",
-    marginLeft: 0,
+    width: "60%",
+    marginLeft: 10,
     marginRight: 0,
     marginTop: 5,
     marginBottom: 5,
@@ -323,8 +323,8 @@ export default Blank = withStyles(_Blank, theme => ({
     letterSpacing: 0
   },
   Button_16: {
-    width: "100%",
-    marginLeft: 0,
+    width: "60%",
+    marginLeft: 10,
     marginRight: 0,
     marginTop: 5,
     marginBottom: 5,
