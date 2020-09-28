@@ -42,10 +42,10 @@ export class _Blank extends React.Component {
           fontWeight: "normal",
           fontStyle: "normal"
         }}
-        style={this.props.themedStyle.Button_5}
+        style={this.props.themedStyle.Button_7}
         onPress={() => alert("Pressed!")}
       >
-        Fuel{" "}
+        Laundry
       </Button>
       <Button
         textStyle={{
@@ -55,10 +55,10 @@ export class _Blank extends React.Component {
           fontWeight: "normal",
           fontStyle: "normal"
         }}
-        style={this.props.themedStyle.Button_7}
+        style={this.props.themedStyle.Button_5}
         onPress={() => alert("Pressed!")}
       >
-        Laundry
+        Fuel{" "}
       </Button>
       <Button
         textStyle={{
@@ -168,11 +168,11 @@ export default Blank = withStyles(_Blank, theme => ({
     borderBottomWidth: 0,
     borderRadius: 0
   },
-  Button_5: {
-    width: "59%",
+  Button_7: {
+    width: "60%",
     marginLeft: 10,
     marginRight: 0,
-    marginTop: 5,
+    marginTop: 15,
     marginBottom: 5,
     paddingLeft: 5,
     paddingRight: 5,
@@ -199,11 +199,10 @@ export default Blank = withStyles(_Blank, theme => ({
     lineHeight: 12,
     letterSpacing: 0
   },
-  Button_7: {
+  Button_5: {
     width: "60%",
-    marginLeft: 9,
+    marginLeft: 10,
     marginRight: 0,
-    marginTop: 5,
     marginBottom: 5,
     paddingLeft: 5,
     paddingRight: 5,
